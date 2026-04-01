@@ -26,5 +26,3 @@ Original file is located at
 # if st.button("Predict"):
 #     prediction = model.predict(np.array([[user_input]]))
 #     st.success(f"Prediction: {prediction[0][0]:.2f}")
-
-!streamlit run app.py & npx localtunnel --port 8501
